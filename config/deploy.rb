@@ -40,6 +40,7 @@ set(:config_files, %w(
 set :whenever_roles, -> { :app }
 
 namespace :deploy do
+  before :starting, "rvm1:install:rvm"
   before :starting, "rvm1:install:ruby"
   before :starting, "install_bundler_gem"
 
@@ -59,9 +60,7 @@ end
 
 task :install_bundler_gem do
   on roles(:app) do
-    within release_path do
-      execute "rvm use $(< #{release_path}/.ruby-version); gem install bundler"
-    end
+    execute :rvm, fetch(:rvm1_ruby_version), "do", "gem install bundler"
   end
 end
 
