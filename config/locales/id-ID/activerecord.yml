@@ -62,7 +62,7 @@ id:
       legislation/process:
         other: "Proses"
       legislation/proposal:
-        other: "Proposal"
+        other: "Petition"
       legislation/draft_versions:
         other: "Versi rancangan"
       legislation/questions:
@@ -82,7 +82,7 @@ id:
       proposal_notification:
         other: "Pemberitahuan proposal"
       dashboard/action:
-        other: Proposal tindak-lanjut
+        other: Petition tindak-lanjut
       dashboard/administrator_task:
         other: Tugas
       link:

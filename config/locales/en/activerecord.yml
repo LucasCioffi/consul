@@ -69,8 +69,8 @@ en:
         one: Ballot sheet
         other: Ballot sheets
       proposal:
-        one: "Citizen proposal"
-        other: "Citizen proposals"
+        one: "Citizen petition"
+        other: "Citizen petitions"
       site_customization/page:
         one: Custom page
         other: Custom pages
@@ -87,8 +87,8 @@ en:
         one: "Process"
         other: "Processes"
       legislation/proposal:
-        one: "Proposal"
-        other: "Proposals"
+        one: "Petition"
+        other: "Petitions"
       legislation/draft_versions:
         one: "Draft version"
         other: "Draft versions"
@@ -114,11 +114,11 @@ en:
         one: "Poll"
         other: "Polls"
       proposal_notification:
-        one: "Proposal notification"
-        other: "Proposal notifications"
+        one: "Petition notification"
+        other: "Petition notifications"
       dashboard/action:
-        one: Proposal dashboard action
-        other: Proposal dashboard actions
+        one: Petition dashboard action
+        other: Petition dashboard actions
       dashboard/administrator_task:
         one: Task
         other: Tasks
@@ -148,7 +148,7 @@ en:
         administrator_id: "Administrator"
         location: "Location (optional)"
         organization_name: "If you are proposing in the name of a collective/organization, or on behalf of more people, write its name"
-        image: "Proposal descriptive image"
+        image: "Petition descriptive image"
         image_title: "Image title"
       geozone:
         name: Name
@@ -344,8 +344,8 @@ en:
         description: Description
         link: External link
         request_to_administrators: Include in the resource a button to request the resource from administrators
-        day_offset: How many days after the creation of the proposal do you want it to be activated?
-        required_supports: How much supports does the proposal have to get in order to be activated?
+        day_offset: How many days after the creation of the petition do you want it to be activated?
+        required_supports: How many signatures does the petition have to receive in order to be activated?
         order: You can enter the position where this action will be shown to the user in the list of actions
         active: Active
         action_type: Type
@@ -422,7 +422,7 @@ en:
           attributes:
             document_number:
               not_in_census: "Not verified by Census"
-              already_voted: "Already voted this proposal"
+              already_voted: "Already voted this petition"
         site_customization/page:
           attributes:
             slug:

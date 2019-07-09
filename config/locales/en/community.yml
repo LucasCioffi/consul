@@ -3,16 +3,16 @@ en:
     sidebar:
       title: Community
       description:
-        proposal: Participate in the user community of this proposal.
-        investment: Participate in the user community of this investment.
-      button_to_access: Access the community
+        proposal: Collaborate with the people who signed this petition.
+        investment: Collaborate with the people who support this investment.
+      button_to_access: Collaborate
     show:
       title:
-        proposal: Proposal community
+        proposal: Petition community
         investment: Budget Investment community
       description:
-        proposal: Participate in the community of this proposal. An active community can help to improve the content of the proposal and boost its dissemination to get more support.
-        investment: Participate in the community of this budget investment. An active community can help to improve the content of the budget investment and boost its dissemination to get more support.
+        proposal: Collaborate with the people who signed this petition. An active community can help to improve the content of the proposal and spread the word to get more support.
+        investment: Collaborate with the people who support this investment. An active community can help to improve the content of the budget investment and spread the word to get more support.
       create_first_community_topic:
         first_theme_not_logged_in: No issue available, participate creating the first one.
         first_theme: Create the first community topic

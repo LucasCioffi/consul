@@ -92,8 +92,8 @@ en:
           erase_reason_label: Reason
           info: This action can not be undone. Please make sure this is what you want.
           info_reason: If you want, leave us a reason (optional)
-          submit: Erase my account
-          title: Erase account
+          submit: Delete my account
+          title: Delete account
         edit:
           current_password_label: Current password
           edit: Edit

@@ -115,7 +115,7 @@ The query must be located inside a valid JSON document, as the value of the `"qu
 
 Sure you can use any HTTP library available for most programming languages.
 
-**IMPORTANT**: Due to security protocols from the Madrid City Council servers, it's necessary to include a *User Agent* header from a web browser so the request is not rejected. For example:
+**IMPORTANT**: Due to security protocols from the Madrid Town Board servers, it's necessary to include a *User Agent* header from a web browser so the request is not rejected. For example:
 
 `User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36`
 

@@ -1,5 +1,12 @@
 <% if user_signed_in? %>
   <li>
+    <%= layout_menu_link_to t("layouts.header.proposals"),
+                            proposals_path,
+                            controller.class == ProposalsController,
+                            accesskey: "2",
+                            title: t("shared.go_to_page") + t("layouts.header.proposals") %>
+  </li>
+  <li>
     <%= layout_menu_link_to t("layouts.header.my_activity_link"),
                               user_path(current_user),
                               controller_name == "users",

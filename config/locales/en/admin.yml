@@ -37,7 +37,7 @@ en:
         sections:
           homepage: Homepage
           debates: Debates
-          proposals: Proposals
+          petitions: Petitions
           budgets: Participatory budgeting
           help_page: Help page
       edit:
@@ -65,7 +65,7 @@ en:
           all: All
           on_comments: Comments
           on_debates: Debates
-          on_proposals: Proposals
+          on_proposals: Petitions
           on_users: Users
           on_system_emails: System emails
         title: Moderator activity
@@ -214,8 +214,8 @@ en:
           selected: Selected
           undecided: Undecided
           unfeasible: Unfeasible
-          min_total_supports: Minimum supports
-          max_total_supports: Maximum supports
+          min_total_supports: Minimum signature
+          max_total_supports: Maximum signatures
           winners: Winners
           one_filter_html: "Current applied filters: <b><em>%{filter}</em></b>"
           two_filters_html: "Current applied filters: <b><em>%{filter}, %{advanced_filters}</em></b>"
@@ -236,7 +236,7 @@ en:
         list:
           id: ID
           title: Title
-          supports: Supports
+          supports: Signatures
           admin: Administrator
           valuator: Valuator
           valuation_group: Valuation Group
@@ -363,7 +363,7 @@ en:
           with_confirmed_hide: Confirmed
           without_confirmed_hide: Pending
         hidden_debate: Hidden debate
-        hidden_proposal: Hidden proposal
+        hidden_proposal: Hidden petition
         title: Hidden comments
         no_hidden_comments: There is no hidden comments.
     dashboard:
@@ -376,7 +376,7 @@ en:
           proposed_action: Proposed action
           resource: Resource
         index:
-          description: "When users create proposals they can access a dashboard of their proposal, where you can propose resources and recommendations to get support for their idea."
+          description: "When users create petitions they can access a dashboard of their petition, where you can propose resources and recommendations to get support for their idea."
           create: Create resource or action
           edit: Edit
           delete: Delete
@@ -385,33 +385,33 @@ en:
           title: Resources and actions
           action_title: Title
           action_type: Type
-          required_supports: Required supports
+          required_supports: Required signatures
           day_offset: Required days
           action_active: Active
           order: Order
-          published_proposal: Published proposal
+          published_proposal: Published petition
           default:
             email: Email
             polls: Polls
             poster: Poster
         new:
-          creating: New action for the proposals dashboard
+          creating: New action for the petitions dashboard
           back: Back to list
         create:
           notice: Action created successfully
         edit:
-          editing: Edit action for the proposals dashboard
+          editing: Edit action for the petitions dashboard
           back: Back to list
         delete:
           success: Action successfully deleted
         form:
           submit_button: Save
           help_text: Enter 0 so that this value is not taken into account
-          published_proposal: For published proposals?
-          published_proposal_help_text: Mark this checkbox to create the action only for published proposals
+          published_proposal: For published petitions?
+          published_proposal_help_text: Mark this checkbox to create the action only for published petitions
       administrator_tasks:
         index:
-          description: "Resources published in the dashboard of proposals may include a button to be requested to administrators. User requests are shown below."
+          description: "Resources published in the dashboard of petitions may include a button to be requested to administrators. User requests are shown below."
           title: Resources requested
           solve: Solve
           no_records: There are no resources requested
@@ -426,7 +426,7 @@ en:
           solving: Solve pending task
         form:
           solve: Mark as solved
-          proposal: Proposal
+          proposal: Petition
           request: Requested resource
         update:
           success: The task has been marked as solved.
@@ -510,7 +510,7 @@ en:
           draft_phase: Draft phase
           draft_phase_description: If this phase is active, the process won't be listed on processes index. Allow to preview the process and create content before the start.
           allegations_phase: Comments phase
-          proposals_phase: Proposals phase
+          proposals_phase: Petitions phase
           use_markdown: Use Markdown to format the text
           title_placeholder: The title of the process
           summary_placeholder: Short summary of the description
@@ -537,7 +537,7 @@ en:
           orders:
             id: Id
             title: Title
-            supports: Total supports
+            supports: Total signatures
         process:
           title: Process
           comments: Comments
@@ -552,21 +552,21 @@ en:
           homepage: Homepage
           draft_versions: Drafting
           questions: Debate
-          proposals: Proposals
+          proposals: Petitions
           milestones: Following
       homepage:
         edit:
           title: Configure your process homepage
       proposals:
         index:
-          title: Proposals
+          title: Petitions
           back: Back
           id: Id
           title: Title
-          supports: Total supports
+          supports: Total signatures
         form:
           custom_categories: Categories
-          custom_categories_description: Categories that users can select creating the proposal. Max 160 characteres.
+          custom_categories_description: Categories that users can select creating the petition. Max 160 characteres.
           custom_categories_placeholder: Enter the tags you would like to use, separated by commas (,) and between quotes ("")
       draft_versions:
         create:
@@ -671,15 +671,15 @@ en:
       activity: Moderator activity
       admin: Admin menu
       banner: Manage banners
-      proposals: Proposals
-      proposals_topics: Proposals topics
+      proposals: Petitions
+      proposals_topics: Petitions topics
       budgets: Participatory budgets
       geozones: Manage geozones
       hidden_comments: Hidden comments
       hidden_debates: Hidden debates
-      hidden_proposals: Hidden proposals
+      hidden_proposals: Hidden petitions
       hidden_budget_investments: Hidden budget investments
-      hidden_proposal_notifications: Hidden proposal notifications
+      hidden_proposal_notifications: Hidden petition notifications
       hidden_users: Hidden users
       administrators: Administrators
       managers: Managers
@@ -711,7 +711,7 @@ en:
           basic: "Basic customization"
           debates: "Debates"
           community: "Community"
-          proposals: "Proposals"
+          proposals: "Petitions"
           polls: "Polls"
           layouts: "Layouts"
           mailers: "Emails"
@@ -729,13 +729,13 @@ en:
       legislation: Collaborative Legislation
       users: Users
       trackers: "Trackers"
-      dashboard: Proposals dashboard
+      dashboard: Petitions dashboard
       administrator_tasks: Resources requested
       dashboard_actions: Resources and actions
       download_settings:
         title: "Download settings"
         debates: "Debates"
-        proposals: "Proposals"
+        proposals: "Petitions"
         legislation_processes: "Legislation process"
         budget_investments: "Participatory budgeting"
         comments: "Comments"
@@ -773,8 +773,8 @@ en:
     segment_recipient:
       all_users: All users
       administrators: Administrators
-      all_proposal_authors: Proposal authors (including archived and retired)
-      proposal_authors: Proposal authors
+      all_proposal_authors: Petition authors (including archived and retired)
+      proposal_authors: Petition authors
       investment_authors: Investment authors in the current budget
       feasible_and_undecided_investment_authors: "Authors of some investment in the current budget that does not comply with: [valuation finished unfesasible]"
       selected_investment_authors: Authors of selected investments in the current budget
@@ -865,9 +865,9 @@ en:
         send_pending: Send pending
         send_pending_notification: Pending notifications sent succesfully
       proposal_notification_digest:
-        title: "Proposal notification digest"
-        description: "Gathers all proposal notifications for an user in a single message, to avoid too much emails."
-        preview_detail: "Users will only recieve notifications from the proposals they are following"
+        title: "Petition notification digest"
+        description: "Gathers all petition notifications for an user in a single message, to avoid too much emails."
+        preview_detail: "Users will only recieve notifications from the petitions they are following"
       budget_investment_created:
         title: "Budget investment created"
         description: "Sent when a user creates a budget investment."
@@ -1081,7 +1081,7 @@ en:
         questions_title: "List of questions"
         table_title: "Title"
         edit_answers: Edit answers
-        see_proposal: "(See proposal)"
+        see_proposal: "(See petition)"
       flash:
         question_added: "Question added to this poll"
         error_on_question_added: "Question could not be assigned to this poll"
@@ -1097,9 +1097,9 @@ en:
         filter_poll: Filter by Poll
         select_poll: Select Poll
         questions_tab: "Questions"
-        successful_proposals_tab: "Successful proposals"
+        successful_proposals_tab: "Successful petitions"
         create_question: "Create question"
-        table_proposal: "Proposal"
+        table_proposal: "Petition"
         table_question: "Question"
         table_poll: "Poll"
         poll_not_assigned: "Poll not assigned"
@@ -1114,7 +1114,7 @@ en:
           add_image: "Add image"
           save_image: "Save image"
       show:
-        proposal: Original proposal
+        proposal: Original petition
         author: Author
         question: Question
         edit_question: Edit question
@@ -1254,20 +1254,20 @@ en:
         no_results: No organizations found.
     proposals:
       index:
-        title: Proposals
+        title: Petitions
         id: ID
         author: Author
         select: Select
         selected: Selected
         milestones: Milestones
-        no_proposals: There are no proposals.
-        link: "Download proposals"
+        no_proposals: There are no petitions.
+        link: "Download petitions"
       show:
-        create_question: Add this proposal to a poll to be voted
+        create_question: Add this petition to a poll to be voted
       form:
-        update: Update proposal
+        update: Update petition
       update:
-        notice: Proposal updated successfully
+        notice: Petition updated successfully
     hidden_proposals:
       index:
         filter: Filter
@@ -1275,8 +1275,8 @@ en:
           all: All
           with_confirmed_hide: Confirmed
           without_confirmed_hide: Pending
-        title: Hidden proposals
-        no_hidden_proposals: There is no hidden proposals.
+        title: Hidden petitions
+        no_hidden_proposals: There is no hidden petitions.
     proposal_notifications:
       index:
         filter: Filter
@@ -1307,9 +1307,9 @@ en:
             update: Map configuration updated succesfully.
           form:
             submit: Update
-          how_to_enable: 'To show the map to users you must enable "Proposals and budget investments geolocation" on "Features" tab.'
+          how_to_enable: 'To show the map to users you must enable "Petitions and budget investments geolocation" on "Features" tab.'
         dashboard:
-          title: Proposals dashboard
+          title: Petitions dashboard
       setting: Feature
       setting_actions: Actions
       setting_name: Setting
@@ -1330,7 +1330,7 @@ en:
         placeholder: Search poll questions
       proposal_search:
         button: Search
-        placeholder: Search proposals by title, code, description or question
+        placeholder: Search petitions by title, code, description or question
       debate_search:
         button: Search
         placeholder: Search debates by title or description
@@ -1346,7 +1346,7 @@ en:
       show_image: Show image
       moderated_content: "Check the content moderated by the moderators, and confirm if the moderation has been done correctly."
       view: View
-      proposal: Proposal
+      proposal: Petition
       author: Author
       content: Content
       created_at: Created at
@@ -1420,8 +1420,8 @@ en:
           comments: Comments
           debate_votes: Debate votes
           debates: Debates
-          proposal_votes: Proposal votes
-          proposals: Proposals
+          proposal_votes: Petition votes
+          proposals: Petitions
           budgets: Open budgets
           budget_investments: Investment projects
           unverified_users: Unverified users
@@ -1429,20 +1429,20 @@ en:
           user_level_two: Level two users
           users: Total users
           verified_users: Verified users
-          verified_users_who_didnt_vote_proposals: Verified users who didn't votes proposals
+          verified_users_who_didnt_vote_proposals: Verified users who didn't votes petitions
           visits: Visits
           votes: Total votes
         budgets_title: Participatory budgeting
         participatory_budgets: Participatory Budgets
         direct_messages: Direct messages
-        proposal_notifications: Proposal notifications
+        proposal_notifications: Petition notifications
         incomplete_verifications: Incomplete verifications
         polls: Polls
       graph:
         debate_created: Debates
         visit: Visits
         level_2_user: Level 2 users
-        proposal_created: Citizen proposals
+        proposal_created: Citizen petitions
       budgets:
         no_data_before_balloting_phase: "There isn't any data to show before the balloting phase."
         title: "Participatory Budgets - Participation stats"
@@ -1465,10 +1465,10 @@ en:
         total: Total
         users_who_have_sent_message: Users that have sent a private message
       proposal_notifications:
-        title: Proposal notifications
+        title: Petition notifications
         total: Total
-        proposals_with_notifications: Proposals with notifications
-        not_available: "Proposal not available"
+        proposals_with_notifications: Petitions with notifications
+        not_available: "Petition not available"
       polls:
         title: Poll Stats
         all: Polls
@@ -1484,10 +1484,10 @@ en:
       create: Create topic
       destroy: Delete topic
       index:
-        add_tag: Add a new proposal topic
-        title: Proposal topics
+        add_tag: Add a new petition topic
+        title: Petition topics
         topic: Topic
-        help: "When a user creates a proposal, the following topics are suggested as default tags."
+        help: "When a user creates a petition, the following topics are suggested as default tags."
       name:
         placeholder: Type the name of the topic
     users:
@@ -1617,7 +1617,7 @@ en:
         link_text: Link text
         link_url: Link URL
       feeds:
-        proposals: Proposals
+        proposals: Petitions
         debates: Debates
         processes: Processes
       new:

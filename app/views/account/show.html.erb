@@ -115,7 +115,7 @@
           <% if feature?("user.recommendations") %>
             <h2><%= t("account.show.recommendations") %></h2>
 
-            <% if feature?("user.recommendations_on_debates") %>
+            <% if false && feature?("user.recommendations_on_debates") %>
               <div>
                 <%= f.label :recommended_debates do %>
                   <%= f.check_box :recommended_debates, title: t("account.show.show_debates_recommendations"), label: false %>

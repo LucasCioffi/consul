@@ -9,25 +9,25 @@ en:
       guide: "This guide explains what each of the %{org} sections are for and how they work."
       menu:
         debates: "Debates"
-        proposals: "Proposals"
+        proposals: "Petitions"
         budgets: "Participatory budgets"
         polls: "Polls"
         other: "Other information of interest"
         processes: "Processes"
       debates:
         title: "Debates"
-        description: "In the %{link} section you can present and share your opinion with other people on issues of concern to you related to the city. It is also a place to generate ideas that through the other sections of %{org} lead to concrete actions by the City Council."
+        description: "In the %{link} section you can present and share your opinion with other people on issues of concern to you related to the city. It is also a place to generate ideas that through the other sections of %{org} lead to concrete actions by the Town Board."
         link: "citizen debates"
         feature_html: "You can open debates, comment and evaluate them with the <strong>I agree</strong> or <strong>I don't agree</strong>. For that you have to %{link}."
         feature_link: "register in %{org}"
         image_alt: "Buttons to rate the debates"
         figcaption: '"I agree" and "I disagree" buttons to rate the debates.'
       proposals:
-        title: "Proposals"
-        description: "In the %{link} section you can make proposals for the City Council to carry them out. The proposals require support, and if they reach sufficient support, they are put to a public vote. The proposals approved in these citizens' votes are accepted by the City Council and carried out."
-        link: "citizen proposals"
-        image_alt: "Button to support a proposal"
-        figcaption_html: 'Button to "Support" a proposal.'
+        title: "Petitions"
+        description: "In the %{link} section you can make petitions for the Town Board to carry them out. The petitions require support, and if they reach sufficient support, they are put to a public vote. The petitions approved in these citizens' votes are accepted by the Town Board and carried out."
+        link: "citizen petitions"
+        image_alt: "Button to support a petition"
+        figcaption_html: 'Button to "Support" a petition.'
       budgets:
         title: "Participatory Budgeting"
         description: "The %{link} section helps people make a direct decision on what part of the municipal budget is spent on."
@@ -36,7 +36,7 @@ en:
         figcaption_html: '"Support" and "Voting" phases of participatory budgets.'
       polls:
         title: "Polls"
-        description: "The %{link} section is activated each time a proposal reaches 1% support and goes to the vote or when the City Council proposes an issue for people to decide on."
+        description: "The %{link} section is activated each time a petition reaches 1% support and goes to the vote or when the Town Board proposes an issue for people to decide on."
         link: "polls"
         feature_1: "To participate in the voting you have to %{link} and verify your account."
         feature_1_link: "register in %{org_name}"
@@ -58,18 +58,18 @@ en:
         text: |-
           Use it in your local government or help us to improve it, it is free software.
 
-          This Open Government Portal use the [CONSUL app](https://github.com/consul/consul 'consul github') that is free software, with [licence AGPLv3](http://www.gnu.org/licenses/agpl-3.0.html 'AGPLv3 gnu' ), that means in simple words that anyone can use the code freely, copy it, see it in detail, modify it and redistribute it to the world with the modifications they want (allowing others to do the same). Because we think culture is better and richer when it is released.
+          This Open Government Portal uses the [CONSUL app](https://github.com/consul/consul 'consul github') that is free software, with [licence AGPLv3](http://www.gnu.org/licenses/agpl-3.0.html 'AGPLv3 gnu' ), that means in simple words that anyone can use the code freely, copy it, see it in detail, modify it and redistribute it to the world with the modifications they want (allowing others to do the same). Because we think culture is better and richer when it is released.
 
           If you are a programmer, you can see the code and help us to improve it at [CONSUL app](https://github.com/consul/consul 'consul github').
       titles:
         how_to_use: Use it in your local government
     privacy:
       title: Privacy Policy
-      subtitle: "Information page on privacy"
+      subtitle: "We do not share your private information with anyone. Customize your privacy settings from your Accounts page."
     accessibility:
       title: Accessibility
       description: |-
-        Web accessibility refers to the possibility of access to the web and its contents by all people, regardless of the disabilities (physical, intellectual or technical) that may arise or from those that derive from the context of use (technological or environmental) .
+        Web accessibility refers to the possibility of access to the web and its contents by all people, regardless of the disabilities (physical, intellectual or technical) that may arise or from those that derive from the context of use (technological or environmental).
 
         When websites are designed with accessibility in mind, all users can access content in equal conditions, for example:
       examples:
@@ -90,7 +90,7 @@ en:
             - key_column: 1
               page_column: Debates
             - key_column: 2
-              page_column: Proposals
+              page_column: Petitions
             - key_column: 3
               page_column: Votes
             - key_column: 4

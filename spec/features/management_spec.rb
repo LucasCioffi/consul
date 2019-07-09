@@ -12,7 +12,7 @@ describe "Management" do
 
     click_link "Management"
 
-    expect(page).to have_content("My content")
+    expect(page).to have_content("My contributions")
     expect(page).to have_content("My account")
     expect(page).to have_content("Sign out")
   end
@@ -26,7 +26,7 @@ describe "Management" do
 
     click_link "Management"
 
-    expect(page).not_to have_content("My content")
+    expect(page).not_to have_content("My contributions")
     expect(page).not_to have_content("My account")
     expect(page).not_to have_content("Sign out")
   end

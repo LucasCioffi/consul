@@ -53,7 +53,7 @@ en:
         description: Description
         more_info: More information and context
       proposals:
-        empty_proposals: There are no proposals
+        empty_proposals: There are no petitions
         filters:
           random: Random
           winners: Selected
@@ -89,7 +89,7 @@ en:
         allegations_dates: Comments
         result_publication_date: Final result publication
         milestones_date: Following
-        proposals_dates: Proposals
+        proposals_dates: Petitions
     questions:
       comments:
         comment_button: Publish answer
@@ -128,17 +128,17 @@ en:
     proposals:
       form:
         tags_label: "Categories"
-      not_verified: "For vote proposals %{verify_account}."
+      not_verified: "For vote petitions %{verify_account}."
       process_title: Collaborative legislation process
       total:
-        zero: No proposals
-        one: "%{count} proposal"
-        other: "%{count} proposals"
+        zero: No petitions
+        one: "%{count} petition"
+        other: "%{count} petitions"
     summary:
       title: Resume
       votes: votes
       debates_phase: Debates phase
-      proposal_phase: Proposal phase
+      proposal_phase: Petition phase
       comments_phase: Text comment phase
       comments:
         zero: No comments

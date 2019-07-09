@@ -59,9 +59,9 @@ en:
       introduce_email: "Please introduce the email used on the account:"
       send_email: Send verification email
     menu:
-      create_proposal: Create proposal
-      print_proposals: Print proposals
-      support_proposals: Support proposals
+      create_proposal: Create petition
+      print_proposals: Print petitions
+      support_proposals: Support petitions
       create_budget_investment: Create budget investment
       print_budget_investments: Print budget investments
       support_budget_investments: Support budget investments
@@ -69,23 +69,23 @@ en:
       user_invites: Send invitations
       select_user: Select user
     permissions:
-      create_proposals: Create proposals
+      create_proposals: Create petitions
       debates: Engage in debates
-      support_proposals: Support proposals
-      vote_proposals: Vote proposals
+      support_proposals: Support petitions
+      vote_proposals: Vote petitions
     print:
-      proposals_info: Create your proposal on http://url.consul
-      proposals_title: "Proposals:"
+      proposals_info: Create your petition on http://url.consul
+      proposals_title: "Petitions:"
       budget_investments_info: Participate at http://url.consul
     print_info: Print this info
     proposals:
       alert:
         unverified_user: User is not verified
-      create_proposal: Create proposal
+      create_proposal: Create petition
       print:
         print_button: Print
       index:
-        title: Support proposals
+        title: Support petitions
     budgets:
       create_new_investment: Create budget investment
       print_investments: Print budget investments

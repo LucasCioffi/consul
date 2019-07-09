@@ -47,8 +47,8 @@ en:
       flagged_comments: Comments
       flagged_debates: Debates
       flagged_investments: Budget investments
-      proposals: Proposals
-      proposal_notifications: Proposals notifications
+      proposals: Petitions
+      proposal_notifications: Petitions notifications
       users: Block users
     proposals:
       index:
@@ -61,14 +61,14 @@ en:
           with_ignored_flag: Mark as viewed
         headers:
           moderate: Moderate
-          proposal: Proposal
-        hide_proposals: Hide proposals
+          proposal: Petition
+        hide_proposals: Hide petitions
         ignore_flags: Mark as viewed
         order: Order by
         orders:
           created_at: Most recent
           flags: Most flagged
-        title: Proposals
+        title: Petitions
     budget_investments:
       index:
         block_authors: Block authors
@@ -99,14 +99,14 @@ en:
           ignored: Mark as viewed
         headers:
           moderate: Moderate
-          proposal_notification: Proposal notification
-        hide_proposal_notifications: Hide proposals
+          proposal_notification: Petition notification
+        hide_proposal_notifications: Hide petitions
         ignore_flags: Mark as viewed
         order: Order by
         orders:
           created_at: Most recent
           moderated: Moderated
-        title: Proposal notifications
+        title: Petition notifications
     users:
       index:
         hidden: Blocked

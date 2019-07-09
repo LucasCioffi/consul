@@ -53,7 +53,7 @@ describe "Account" do
   scenario "Edit email address" do
     visit account_path
 
-    click_link "Change my credentials"
+    click_link "Change Email/Password"
     fill_in "user_email", with: "new_user_email@example.com"
     fill_in "user_password", with: "new_password"
     fill_in "user_password_confirmation", with: "new_password"
@@ -80,7 +80,7 @@ describe "Account" do
     expect(page).to have_content "You have been signed in successfully."
 
     visit account_path
-    click_link "Change my credentials"
+    click_link "Change Email/Password"
     expect(page).to have_selector("input[value='new_user_email@example.com']")
   end
 
@@ -152,8 +152,8 @@ describe "Account" do
 
     expect(page).to have_current_path(account_path, ignore_query: true)
 
-    expect(page).to have_link("Change my credentials")
-    click_link "Change my credentials"
+    expect(page).to have_link("Change Email/Password")
+    click_link "Change Email/Password"
     click_button "Update"
 
     expect(page).to have_content error_message
@@ -162,11 +162,11 @@ describe "Account" do
   scenario "Erasing account" do
     visit account_path
 
-    click_link "Erase my account"
+    click_link "Delete my account"
 
     fill_in "user_erase_reason", with: "a test"
 
-    click_button "Erase my account"
+    click_button "Delete my account"
 
     expect(page).to have_content "Goodbye! Your account has been cancelled. We hope to see you again soon."
 

@@ -1,10 +1,10 @@
 en:
   account:
     show:
-      change_credentials_link: Change my credentials
-      email_on_comment_label: Notify me by email when someone comments on my proposals or debates
+      change_credentials_link: Change Email/Password
+      email_on_comment_label: Notify me by email when someone comments on my petitions
       email_on_comment_reply_label: Notify me by email when someone replies to my comments
-      erase_account_link: Erase my account
+      erase_account_link: Delete my account
       finish_verification: Complete verification
       notifications: Notifications
       organization_name_label: Name of organization
@@ -18,16 +18,16 @@ en:
       save_changes_submit: Save changes
       subscription_to_website_newsletter_label: Receive by email website relevant information
       email_on_direct_message_label: Receive emails about direct messages
-      email_digest_label: Receive a summary of proposal notifications
+      email_digest_label: Receive a summary of petition notifications
       official_position_badge_label: Show official position badge
       recommendations: Recommendations
       show_debates_recommendations: Show debates recommendations
-      show_proposals_recommendations: Show proposals recommendations
+      show_proposals_recommendations: Show petitions recommendations
       title: My account
       user_permission_debates: Participate on debates
       user_permission_info: With your account you can...
-      user_permission_proposal: Create new proposals
-      user_permission_support_proposal: Support proposals
+      user_permission_proposal: Create new petitions
+      user_permission_support_proposal: Sign petitions
       user_permission_title: Participation
       user_permission_verify: To perform all the actions verify your account.
       user_permission_verify_info: "* Only for users on Census."
@@ -120,7 +120,7 @@ en:
         recommendations: recommendations
       recommendations:
         without_results: There are no debates related to your interests
-        without_interests: Follow proposals so we can give you recommendations
+        without_interests: Follow petitions so we can give you recommendations
         disable: "Debates recommendations will stop showing if you dismiss them. You can enable them again in 'My account' page"
         actions:
           success: "Recommendations for debates are now disabled for this account"
@@ -147,8 +147,8 @@ en:
     new:
       form:
         submit_button: Start a debate
-      info: If you want to make a proposal, this is the wrong section, enter %{info_link}.
-      info_link: create new proposal
+      info: If you want to make a petition, this is the wrong section, enter %{info_link}.
+      info_link: create new petition
       more_info: More information
       recommendation_four: Enjoy this space and the voices that fill it. It belongs to you too.
       recommendation_one: Do not use capital letters for the debate title or for whole sentences. On the internet, this is considered shouting. And nobody likes being shouted at.
@@ -185,7 +185,7 @@ en:
     errors: errors
     not_saved_html: "prevented this %{resource} from being saved. <br>Please check the marked fields to know how to correct them:"
     policy: Privacy Policy
-    proposal: Proposal
+    proposal: Petition
     proposal_notification: "Notification"
     budget/investment: Investment
     budget/group: Budget Group
@@ -199,7 +199,7 @@ en:
     topic: Topic
     image: Image
   geozones:
-    none: All city
+    none: Town Wide
   layouts:
     application:
       chrome: Google Chrome
@@ -214,13 +214,13 @@ en:
       proposal_totals:
         active_resources: Active resources
         community: Participants in your community
-        show_proposal: Show proposal
-        preview_proposal: Preview proposal
+        show_proposal: Show petition
+        preview_proposal: Preview petition
         current_goal: Current goal
         supports:
-          zero: No supports
-          one: 1 Support
-          other: "Supports"
+          zero: No signatures
+          one: 1 Signature
+          other: "Signatures"
     footer:
       accessibility: Accessibility
       conditions: Terms and conditions of use
@@ -231,7 +231,7 @@ en:
       description: This portal uses the %{consul} which is %{open_source}.
       open_source: open-source software
       open_source_url: http://www.gnu.org/licenses/agpl-3.0.html
-      participation_text: Decide how to shape the city you want to live in.
+      participation_text: Decide how to shape the town you want to live in.
       participation_title: Participation
       privacy: Privacy Policy
     header:
@@ -241,17 +241,17 @@ en:
       collaborative_legislation: Collaborative legislation
       debates: Debates
       locale: "Language:"
-      logo: CONSUL logo
+      logo: Greenburgh.US logo
       management: Management
       moderation: Moderation
       valuation: Valuation
       officing: Polling officers
       help: Help
       my_account_link: My account
-      my_activity_link: My content
+      my_activity_link: My contributions
       open: open
       open_gov: Open government
-      proposals: Proposals
+      proposals: Petitions
       poll_questions: Voting
       budgets: Participatory budgeting
       notification_item:
@@ -286,9 +286,9 @@ en:
       notifiable_hidden: This resource is not available anymore.
   map:
     title: "Districts"
-    proposal_for_district: "Start a proposal for your district"
+    proposal_for_district: "Start a petition for your district"
     select_district: Scope of operation
-    start_proposal: Create a proposal
+    start_proposal: Create a petition
   omniauth:
     facebook:
       sign_in: Sign in with Facebook
@@ -311,31 +311,31 @@ en:
   proposals:
     create:
       form:
-        submit_button: Create proposal
+        submit_button: Create petition
     created:
       title: Congratulations! You have taken the first step.
-      motivation: "It is important to prepare the launch campaign for your proposal to be successful. The first few days are decisive."
-      motivation_2_html: "<strong>If you want recommendations to prepare the publishing leave your proposal as a draft and we will guide you.</strong>"
-      publish: No, I want to publish the proposal
+      motivation: "It is important to prepare the launch campaign for your petition to be successful. The first few days are decisive."
+      motivation_2_html: "<strong>If you want recommendations to prepare the publishing leave your petition as a draft and we will guide you.</strong>"
+      publish: No, I want to publish the petition
       dashboard: Yes, I want help and I'll publish later
-      preview_title: This is how your proposal will look when you publish it
+      preview_title: This is how your petition will look when you publish it
     share:
       improve_it: Improve your campaign and get more support.
       dashboard: See more information
-      message: "I supported the proposal %{title} in %{handle}. If you're interested, support it too!"
+      message: "I signed the petition %{title} in %{handle}. If you're interested, you can sign it too!"
     edit:
-      editing: Edit proposal
+      editing: Edit petition
       form:
         submit_button: Save changes
-      show_link: View proposal
+      show_link: View petition
     retire_form:
-      title: Retire proposal
-      warning: "If you retire the proposal it would still accept supports, but will be removed from the main list and a message will be visible to all users stating that the author considers the proposal should not be supported anymore"
-      retired_reason_label: Reason to retire the proposal
+      title: Retire petition
+      warning: "If you retire the petition it would still accept signatures, but will be removed from the main list and a message will be visible to all users stating that the author considers the petition should not be signed anymore"
+      retired_reason_label: Reason to retire the petition
       retired_reason_blank: Choose an option
       retired_explanation_label: Explanation
-      retired_explanation_placeholder: Explain shortly why you think this proposal should not receive more supports
-      submit_button: Retire proposal
+      retired_explanation_placeholder: Explain shortly why you think this petition should not receive more signatures
+      submit_button: Retire petition
     retire_options:
       duplicated: Duplicated
       started: Already underway
@@ -344,22 +344,22 @@ en:
       other: Other
     form:
       geozone: Scope of operation
-      proposal_responsible_name: Full name of the person submitting the proposal
+      proposal_responsible_name: Full name of the person submitting the petition
       proposal_responsible_name_note: "(individually or as representative of a collective; will not be displayed publically)"
-      proposal_summary: Proposal summary
+      proposal_summary: Petition summary
       proposal_summary_note: "(maximum 200 characters)"
-      proposal_text: Proposal text
-      proposal_title: Proposal title
+      proposal_text: Petition text
+      proposal_title: Petition title
       proposal_video_url: Link to external video
       proposal_video_url_note: You may add a link to YouTube or Vimeo
       tag_category_label: "Categories"
-      tags_instructions: "Tag this proposal. You can choose from proposed categories or add your own"
+      tags_instructions: "Tag this petition. You can choose from proposed categories or add your own"
       tags_label: Tags
       tags_placeholder: "Enter the tags you would like to use, separated by commas (',')"
       map_location: "Map location"
       map_location_instructions: "Navigate the map to the location and place the marker."
       map_remove_marker: "Remove map marker"
-      map_skip_checkbox: "This proposal doesn't have a concrete location or I'm not aware of it."
+      map_skip_checkbox: "This petition doesn't have a concrete location or I'm not aware of it."
     index:
       featured_proposals: Featured
       filter_topic:
@@ -374,18 +374,18 @@ en:
         archival_date: archived
         recommendations: recommendations
       recommendations:
-        without_results: There are not proposals related to your interests
-        without_interests: Follow proposals so we can give you recommendations
-        disable: "Proposals recommendations will stop showing if you dismiss them. You can enable them again in 'My account' page"
+        without_results: There are not petitions related to your interests
+        without_interests: Follow petitions so we can give you recommendations
+        disable: "Petitions recommendations will stop showing if you dismiss them. You can enable them again in 'My account' page"
         actions:
-          success: "Recommendations for proposals are now disabled for this account"
-          error: "An error has occured. Please go to 'My account' page to manually disable recommendations for proposals"
-      retired_proposals: Retired proposals
-      retired_proposals_link: "Proposals retired by the author"
-      selected_proposals: Selected proposals
-      selected_proposals_link: View selected proposals
-      archived_proposals: Archived proposals
-      proposals_lists: Proposals lists
+          success: "Recommendations for petitions are now disabled for this account"
+          error: "An error has occured. Please go to 'My account' page to manually disable recommendations for petitions"
+      retired_proposals: Retired petitions
+      retired_proposals_link: "Petitions retired by the author"
+      selected_proposals: Selected petitions
+      selected_proposals_link: View selected petitions
+      archived_proposals: Archived petitions
+      proposals_lists: Petitions lists
       retired_links:
         all: All
         duplicated: Duplicated
@@ -395,91 +395,91 @@ en:
         other: Other
       search_form:
         button: Search
-        placeholder: Search proposals...
+        placeholder: Search petitions...
         title: Search
       search_results_html:
         one: " containing the term <strong>'%{search_term}'</strong>"
         other: " containing the term <strong>'%{search_term}'</strong>"
       select_order: Order by
-      select_order_long: "You are viewing proposals according to:"
-      start_proposal: Create a proposal
-      title: Proposals
+      select_order_long: "You are viewing petitions according to:"
+      start_proposal: Create a petition
+      title: Petitions
       top: Top weekly
-      top_link_proposals: The most supported proposals by category
+      top_link_proposals: Petitions with the most signatures by category
       section_header:
-        icon_alt: Proposals icon
-        title: Proposals
-        help: Help about proposals
+        icon_alt: Petitions icon
+        title: Petitions
+        help: Help about petitions
       section_footer:
-        title: Help about proposals
-        description: Citizens' proposals are an opportunity for neighbours and collectives to decide directly how they want their city to be, after getting sufficient support and submitting to a citizens' vote.
+        title: Help about petitions
+        description: Citizens' petitions are an opportunity for neighbours and collectives to decide directly how they want their town to be, after getting sufficient support and submitting to a citizens' vote.
     new:
       form:
-        submit_button: Create proposal
-      more_info: How do citizen proposals work?
-      recommendation_one: Do not use capital letters for the proposal title or for whole sentences. On the internet, this is considered shouting. And nobody likes being shouted at.
+        submit_button: Create petition
+      more_info: How do citizen petitions work?
+      recommendation_one: Do not use capital letters for the petition title or for whole sentences. On the internet, this is considered shouting. And nobody likes being shouted at.
       recommendation_three: Enjoy this space and the voices that fill it. It belongs to you too.
-      recommendation_two: Any proposal or comment suggesting illegal action will be deleted, as well as those intending to sabotage the debate spaces. Anything else is allowed.
-      recommendations_title: Recommendations for creating a proposal
-      start_new: Create new proposal
+      recommendation_two: Any petition or comment suggesting illegal action will be deleted, as well as those intending to sabotage the debate spaces. Anything else is allowed.
+      recommendations_title: Recommendations for creating a petition
+      start_new: Create new petition
     notice:
-      retired: Proposal retired
-      published: The proposal has been published
+      retired: Petition retired
+      published: The petition has been published
     proposal:
-      created: "You've created a proposal!"
+      created: "You've created a petition!"
       share:
-        guide: "Now you can share it so people can start supporting."
+        guide: "Now you can share it so people can start signing it."
         edit: "Before it gets shared you'll be able to change the text as you like."
-        view_proposal: Not now, go to my proposal
-      already_supported: You have already supported this proposal. Share it!
+        view_proposal: Not now, go to my petition
+      already_supported: You have signed this petition. Now share it!
       comments:
         one: 1 comment
         other: "%{count} comments"
         zero: No comments
-      support: Support
-      support_title: Support this proposal
+      support: Click to Sign
+      support_title: Sign this petition
       supports:
-        one: 1 support
-        other: "%{count} supports"
-        zero: No supports
+        one: 1 signature
+        other: "%{count} signatures"
+        zero: No signatures
       votes:
         one: 1 vote
         other: "%{count} votes"
         zero: No votes
-      supports_necessary: "%{number} supports needed"
+      supports_necessary: "%{number} signatures needed"
       reason_for_supports_necessary: ""
       total_percent: 100%
-      archived: "This proposal has been archived and can't collect supports."
-      successful: "This proposal has reached the required supports."
-      selected: "Selected proposal"
+      archived: "This petition has been archived and can't collect signatures."
+      successful: "This petition has reached the required number of signatures."
+      selected: "Selected petition"
     show:
       author_deleted: User deleted
-      code: "Proposal code:"
+      code: "Petition code:"
       comments:
         one: 1 comment
         other: "%{count} comments"
         zero: No comments
       comments_tab: Comments
       dashboard_proposal_link: Dashboard
-      flag: This proposal has been flagged as inappropriate by several users.
+      flag: This petition has been flagged as inappropriate by several users.
       login_to_comment: You must %{signin} or %{signup} to leave a comment.
       notifications_tab: Notifications
       milestones_tab: Milestones
-      retired_warning: "The author considers this proposal should not receive more supports."
+      retired_warning: "The author considers this petition should not receive more signatures."
       retired_warning_link_to_explanation: Read the explanation before voting for it.
-      retired: Proposal retired by the author
+      retired: Petition retired by the author
       share: Share
-      no_notifications: "This proposal has no notifications."
-      embed_video_title: "Video on %{proposal}"
+      no_notifications: "This petition has no notifications."
+      embed_video_title: "Video on %{petition}"
       title_video_url: "External video"
       author: Author
-      draft: Proposal in draft. Cannot yet get supports, nor does it appear in the list of proposals.
+      draft: Petition in draft. Cannot yet get signatures, nor does it appear in the list of petitions.
     update:
       form:
         submit_button: Save changes
   dashboard:
     menu:
-      my_proposal: Edit my proposal
+      my_proposal: Edit my petition
       progress: Progress
       resources: Resources
       community: Community
@@ -492,28 +492,28 @@ en:
       request: Request
     create_request:
       success: The request has been successfully sent. We will contact you as soon as possible to inform you about it.
-      archived: This proposal is archived and can not request resources.
+      archived: This petition is archived and can not request resources.
     progress:
       title: Graphic
       group_by_month: Monthly
       group_by_week: Weekly
       group_by_date: Daily
       progress: Acumulated progress
-      supports: Supports
+      supports: Signatures
       success: Ideal progress
       new_action: New
     index:
       title: Edition
-      edit_proposal_link: Edit proposal
-      publish: Publish proposal
-      retire: Retire proposal
+      edit_proposal_link: Edit petition
+      publish: Publish petition
+      retire: Retire petition
     new_request:
       links: Links
     resources:
       available_resources: Available resources
     resource:
       required_days: "%{days} days required"
-      required_supports: "%{supports} supports required"
+      required_supports: "%{supports} signatures required"
       and: and
       view_resource: See resource
       resource_requested: Resource already requested
@@ -535,8 +535,8 @@ en:
       hide_course: Hide course
     goal:
       target_supports:
-        one: Get %{count} support for your proposal
-        other: Get %{count} supports for your proposal
+        one: Get %{count} signature for your petition
+        other: Get %{count} signatures for your petition
       days:
         one: "%{count} day"
         other: "%{count} days"
@@ -550,7 +550,7 @@ en:
       comments: Comments
       latest_comments: Latest messages
     messages:
-      send_notification: Send message to proposal supporters
+      send_notification: Send message to petition supporters
       previous_notifications: See previous notifications
     polls:
       index:
@@ -593,13 +593,13 @@ en:
         poster_title: "Do not keep looking,"
         poster_subtitle: "back me up! ;)"
         intro_text_html:
-          "<strong>I am participating in %{org}</strong> with my own citizen proposal and only if you also add you can I achieve the
-          necessary support to make the city we all want."
-        proposal_code: "Code of the proposal: %{code}"
-        support: Support my proposal
-        footer_html: "<strong>Visit %{link} and support this proposal.</strong> We need to be many. Decide your too. Thank you!"
+          "<strong>I am participating in %{org}</strong> with my own citizen petition and only if you also add you can I achieve the
+          necessary support to make the town we all want."
+        proposal_code: "Code of the petition: %{code}"
+        support: Sign my petition
+        footer_html: "<strong>Visit %{link} and sign this petition.</strong> We need to be many. Decide your too. Thank you!"
       new:
-        title: Poster of your proposal
+        title: Poster of your petition
       options:
         preview: Preview
         download: Download
@@ -615,13 +615,13 @@ en:
         sent: The email has been sent
     mailer:
       forward:
-        subtitle_html: "If you support me, <br>we will achieve it."
-        support_button: Support this proposal
+        subtitle_html: "If you add your signature, <br>we will achieve it."
+        support_button: Sign this petition
         share_in: Share in
         hi: "Hello!"
-        introduction: I am writing to let you know that I am participating in %{org}, the platform we can decide which city we want. And for that, I created my own citizen proposal and now, I'm going to need your support! But do not worry because It is very simple.
-        support: "You just have to click on the button that you will see below 'Support this proposal' and you can inform yourself about before promoting it. Only the proposals that achieve the maximum support will be carried out by the City Council, and I thought that you, I'm sure you help me achieve it!"
-        share: "And if you also do me the great favor of sharing my proposal with your friends, family and contacts, it would be perfect!"
+        introduction: I am writing to let you know that I am participating in %{org}, the platform we can decide which town we want. And for that, I created my own citizen petition and now, I'm going to need your support! But do not worry because It is very simple.
+        support: "You just have to click on the button that you will see below 'Sign this petition' and you can inform yourself about before promoting it. Only the petitions that achieve the maximum signatures will be carried out by the Town Board, and I thought that you, I'm sure you help me achieve it!"
+        share: "And if you also do me the great favor of sharing my petition with your friends, family and contacts, it would be perfect!"
   polls:
     all: "All"
     no_dates: "no date assigned"
@@ -634,7 +634,7 @@ en:
       title: "Polls"
       participate_button: "Participate in this poll"
       participate_button_expired: "Poll ended"
-      no_geozone_restricted: "All city"
+      no_geozone_restricted: "Town Wide"
       geozone_restricted: "Districts"
       geozone_info: "Can participate people in the Census of: "
       already_answer: "You already have participated in this poll"
@@ -696,7 +696,7 @@ en:
         title: "Questions"
         most_voted_answer: "Most voted answer: "
     poll_header:
-      back_to_proposal: Back to proposal
+      back_to_proposal: Back to petition
   poll_questions:
     show:
       vote_answer: "Vote %{answer}"
@@ -719,10 +719,10 @@ en:
       title_label: "Title"
       body_label: "Message"
       submit_button: "Send message"
-      info_about_receivers_html: "This message will be sent to <strong>%{count} people</strong> and it will be visible in %{proposal_page}.<br> Messages are not sent immediately, users will receive periodically an email with all proposal notifications."
-      proposal_page: "the proposal's page"
+      info_about_receivers_html: "This message will be sent to <strong>%{count} people</strong> and it will be visible in %{proposal_page}.<br> Messages are not sent immediately, users will receive periodically an email with all petition notifications."
+      proposal_page: "the petition's page"
     show:
-      back: "Go back to my content"
+      back: "Go back to my contributions"
   shared:
     edit: "Edit"
     save: "Save"
@@ -767,9 +767,9 @@ en:
           notice_html: "You have stopped following this investment project! </br> You will no longer receive notifications related to this project."
       proposal:
           create:
-            notice_html: "Now you are following this citizen proposal! </br> We will notify you of changes as they occur so that you are up-to-date."
+            notice_html: "Now you are following this citizen petition! </br> We will notify you of changes as they occur so that you are up-to-date."
           destroy:
-            notice_html: "You have stopped following this citizen proposal! </br> You will no longer receive notifications related to this proposal."
+            notice_html: "You have stopped following this citizen petition! </br> You will no longer receive notifications related to this petition."
     hide: Hide
     print:
       print_button: Print this info
@@ -790,9 +790,9 @@ en:
         see_all: "See all"
       proposal:
         found:
-          one: "There is a proposal with the term '%{query}', you can contribute to it instead of creating a new"
-          other: "There are proposals with the term '%{query}', you can contribute to them instead of creating a new"
-        message: "You are seeing %{limit} of %{count} proposals containing the term '%{query}'"
+          one: "There is a petition with the term '%{query}', you can contribute to it instead of creating a new"
+          other: "There are petitions with the term '%{query}', you can contribute to them instead of creating a new"
+        message: "You are seeing %{limit} of %{count} petitions containing the term '%{query}'"
         see_all: "See all"
     tags_cloud:
       tags: Trending
@@ -822,7 +822,7 @@ en:
     download:
       title: "Downloads"
       link:
-        proposal: "Download proposals"
+        proposal: "Download petitions"
         debate: "Download debates"
         legislation_process: "Download legislation processes"
         budget: "Download budgets"
@@ -838,9 +838,9 @@ en:
     index:
       visits: Visits
       debates: Debates
-      proposals: Proposals
+      proposals: Petitions
       comments: Comments
-      proposal_votes: Votes on proposals
+      proposal_votes: Votes on petitions
       debate_votes: Votes on debates
       comment_votes: Votes on comments
       votes: Total votes
@@ -868,9 +868,9 @@ en:
     show:
       deleted: Deleted
       deleted_debate: This debate has been deleted
-      deleted_proposal: This proposal has been deleted
+      deleted_proposal: This petition has been deleted
       deleted_budget_investment: This investment project has been deleted
-      proposals: Proposals
+      proposals: Petitions
       proposals_status: Status
       debates: Debates
       budget_investments: Budget investments
@@ -884,8 +884,8 @@ en:
           one: 1 Debate
           other: "%{count} Debates"
         proposals:
-          one: 1 Proposal
-          other: "%{count} Proposals"
+          one: 1 Petition
+          other: "%{count} Petitions"
         budget_investments:
           one: 1 Investment
           other: "%{count} Investments"
@@ -898,12 +898,12 @@ en:
       send_private_message: "Send private message"
       delete_alert: "Are you sure you want to delete your investment project? This action can't be undone"
     proposals:
-      retired: "Retired proposal"
+      retired: "Retired petition"
       draft: Draft
       published: Published
-      see: "See proposal"
+      see: "See petition"
       actions: Actions
-      retired_help_text: Dashboard not available for retired proposals
+      retired_help_text: Dashboard not available for retired petitions
   votes:
     agree: I agree
     anonymous: Too many anonymous votes to admit vote %{verify_account}.
@@ -912,9 +912,9 @@ en:
     organizations: Organizations are not permitted to vote
     signin: Sign in
     signup: Sign up
-    supports: Supports
+    supports: Signatures
     unauthenticated: You must %{signin} or %{signup} to continue.
-    verified_only: Only verified users can vote on proposals; %{verify_account}.
+    verified_only: Only verified users can vote on petitions; %{verify_account}.
     verify_account: verify your account
     budget_investments:
       not_logged_in: You must %{signin} or %{signup} to continue.
@@ -929,10 +929,10 @@ en:
     feed:
       most_active:
         debates: "Most active debates"
-        proposals: "Most active proposals"
+        proposals: "Most active petitions"
         processes: "Open processes"
       see_all_debates: See all debates
-      see_all_proposals: See all proposals
+      see_all_proposals: See all petitions
       see_all_processes: See all processes
       process_label: Process
       see_process: See process
@@ -940,13 +940,13 @@ en:
       title: Featured
     recommended:
       title: Recommendations that may interest you
-      help: "These recommendations are generated by the tags of the debates and proposals you are following."
+      help: "These recommendations are generated by the tags of the debates and petitions you are following."
       debates:
         title: Recommended debates
         btn_text_link: All recommended debates
       proposals:
-        title: Recommended proposals
-        btn_text_link: All recommended proposals
+        title: Recommended petitions
+        btn_text_link: All recommended petitions
       budget_investments:
         title: Recommended investments
       slide: "See %{title}"
@@ -961,8 +961,8 @@ en:
       title: Participate
       user_permission_debates: Participate on debates
       user_permission_info: With your account you can...
-      user_permission_proposal: Create new proposals
-      user_permission_support_proposal: Support proposals*
+      user_permission_proposal: Create new petitions
+      user_permission_support_proposal: Sign petitions*
       user_permission_verify: "To perform the following actions verify your account."
       user_permission_verify_info: "* Only for users on Census."
       user_permission_verify_my_account: Verify my account
@@ -984,7 +984,7 @@ en:
     score_positive: "Yes"
     score_negative: "No"
     content_title:
-      proposal: "Proposal"
+      proposal: "Petition"
       debate: "Debate"
       budget_investment: "Budget investment"
   admin/widget:

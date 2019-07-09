@@ -9,7 +9,7 @@ describe "Proposal Notifications" do
     login_as(author)
     visit root_path
 
-    click_link "My content"
+    click_link "My contributions"
     click_link "Dashboard"
 
     within("#side_menu") do
@@ -184,7 +184,7 @@ describe "Proposal Notifications" do
       login_as(author)
       visit root_path
 
-      click_link "My content"
+      click_link "My contributions"
 
       within("#proposal_#{proposal.id}") do
         click_link "Dashboard"

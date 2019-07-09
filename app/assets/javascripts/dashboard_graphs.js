@@ -16,7 +16,7 @@
     this.proposalSuccess = null;
     this.maximumValue = 0;
     this.progressLabel = 'Progress';
-    this.supportsLabel = 'Supports';
+    this.supportsLabel = 'Signatures';
     this.successLabel = 'Success';
     this.goals = null;
     this.achievements = null;
@@ -153,7 +153,7 @@
 
     this.formatXColumnValues();
 
-    colors[this.progressColumnValues[0]] = '#004a83';
+    colors[this.progressColumnValues[0]] = '#068821';
     colors[this.successfulColumnValues[0]] = '#ff7f0e';
 
     c3.generate({

@@ -4,7 +4,7 @@
   Keywords: democracy, citizen participation, eparticipation, debates, proposals, voting, consultations, crowdlaw, participatory budgeting
 -->
 
-![CONSUL logo](https://raw.githubusercontent.com/consul/consul/master/public/consul_logo.png)
+![Greenburgh.US logo](https://raw.githubusercontent.com/consul/consul/master/public/consul_logo.png)
 
 # CONSUL
 
