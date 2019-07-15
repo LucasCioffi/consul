@@ -32,7 +32,8 @@ class ApplicationController < ActionController::Base
     end
 
     def http_basic_auth_site?
-      Rails.application.secrets.http_basic_auth
+      puts "http_basic_auth_site?"
+      # Rails.application.secrets.http_basic_auth
     end
 
     def verify_lock
