@@ -1,7 +1,8 @@
 source "https://rubygems.org"
-
+ruby '2.3.2'
 gem "rails", "5.0.7.2"
 
+gem "rails_12factor"
 gem "acts-as-taggable-on", "~> 5.0.0"
 gem "acts_as_votable", "~> 0.11.1"
 gem "ahoy_matey", "~> 1.6.0"
@@ -40,6 +41,7 @@ gem "paperclip", "~> 5.2.1"
 gem "paranoia", "~> 2.4.1"
 gem "pg", "~> 0.21.0"
 gem "pg_search", "~> 2.0.1"
+gem "puma", "~> 3.12.1"
 gem "redcarpet", "~> 3.4.0"
 gem "responders", "~> 2.4.0"
 gem "rinku", "~> 2.0.2", require: "rails_rinku"
@@ -74,7 +76,6 @@ group :development, :test do
   gem "knapsack_pro", "~> 1.1.0"
   gem "launchy", "~> 2.4.3"
   gem "letter_opener_web", "~> 1.3.4"
-  gem "puma", "~> 3.12.1"
   gem "spring", "~> 2.0.1"
   gem "spring-commands-rspec", "~> 1.0.4"
 end

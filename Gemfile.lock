@@ -380,6 +380,11 @@ GEM
       nokogiri (>= 1.6)
     rails-html-sanitizer (1.0.4)
       loofah (~> 2.2, >= 2.2.2)
+    rails_12factor (0.0.3)
+      rails_serve_static_assets
+      rails_stdout_logging
+    rails_serve_static_assets (0.0.5)
+    rails_stdout_logging (0.0.5)
     railties (5.0.7.2)
       actionpack (= 5.0.7.2)
       activesupport (= 5.0.7.2)
@@ -596,6 +601,7 @@ DEPENDENCIES
   rails (= 5.0.7.2)
   rails-assets-leaflet!
   rails-assets-markdown-it (~> 8.2.1)!
+  rails_12factor
   recipient_interceptor (~> 0.2.0)
   redcarpet (~> 3.4.0)
   responders (~> 2.4.0)
@@ -623,5 +629,8 @@ DEPENDENCIES
   wicked_pdf (~> 1.1.0)
   wkhtmltopdf-binary (~> 0.12.4)
 
+RUBY VERSION
+   ruby 2.3.2p217
+
 BUNDLED WITH
-   1.17.1
+   2.0.2
