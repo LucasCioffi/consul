@@ -6,6 +6,7 @@ class Mailer < ApplicationMailer
   helper :users
 
   def comment(comment)
+    puts "*** comment(comment)"
     @comment = comment
     @commentable = comment.commentable
     @email_to = @commentable.author.email
@@ -17,6 +18,7 @@ class Mailer < ApplicationMailer
   end
 
   def reply(reply)
+    puts "*** reply(reply)"
     @email = ReplyEmail.new(reply)
     @email_to = @email.to
 
@@ -26,6 +28,7 @@ class Mailer < ApplicationMailer
   end
 
   def email_verification(user, recipient, token, document_type, document_number)
+    puts "*** email_verification(user, recipient, token, document_type, document_number)"
     @user = user
     @email_to = recipient
     @token = token
@@ -38,6 +41,7 @@ class Mailer < ApplicationMailer
   end
 
   def direct_message_for_receiver(direct_message)
+    puts "*** direct_message_for_receiver(direct_message)"
     @direct_message = direct_message
     @receiver = @direct_message.receiver
     @email_to = @receiver.email
@@ -48,6 +52,7 @@ class Mailer < ApplicationMailer
   end
 
   def direct_message_for_sender(direct_message)
+    puts "*** direct_message_for_sender(direct_message)"
     @direct_message = direct_message
     @sender = @direct_message.sender
     @email_to = @sender.email
@@ -58,6 +63,7 @@ class Mailer < ApplicationMailer
   end
 
   def proposal_notification_digest(user, notifications)
+    puts "*** proposal_notification_digest(user, notifications)"
     @notifications = notifications
     @email_to = user.email
 
@@ -67,6 +73,7 @@ class Mailer < ApplicationMailer
   end
 
   def user_invite(email)
+    puts "*** user_invite(email)"
     @email_to = email
 
     I18n.with_locale(I18n.default_locale) do
@@ -75,6 +82,7 @@ class Mailer < ApplicationMailer
   end
 
   def budget_investment_created(investment)
+    puts "*** budget_investment_created(investment)"
     @investment = investment
     @email_to = @investment.author.email
 
@@ -84,6 +92,7 @@ class Mailer < ApplicationMailer
   end
 
   def budget_investment_unfeasible(investment)
+    puts "*** budget_investment_unfeasible(investment)"
     @investment = investment
     @author = investment.author
     @email_to = @author.email
@@ -94,6 +103,7 @@ class Mailer < ApplicationMailer
   end
 
   def budget_investment_selected(investment)
+    puts "*** budget_investment_selected(investment)"
     @investment = investment
     @author = investment.author
     @email_to = @author.email
@@ -104,6 +114,7 @@ class Mailer < ApplicationMailer
   end
 
   def budget_investment_unselected(investment)
+    puts "*** budget_investment_unselected(investment)"
     @investment = investment
     @author = investment.author
     @email_to = @author.email
@@ -114,6 +125,7 @@ class Mailer < ApplicationMailer
   end
 
   def newsletter(newsletter, recipient_email)
+    puts "*** newsletter(newsletter, recipient_email)"
     @newsletter = newsletter
     @email_to = recipient_email
 
@@ -121,6 +133,7 @@ class Mailer < ApplicationMailer
   end
 
   def evaluation_comment(comment, to)
+    puts "*** evaluation_comment(comment, to)"
     @email = EvaluationCommentEmail.new(comment)
     @email_to = to
 
@@ -130,12 +143,14 @@ class Mailer < ApplicationMailer
   private
 
   def with_user(user, &block)
+    puts "*** with_user(user, &block)"
     I18n.with_locale(user.locale) do
       yield
     end
   end
 
   def prevent_delivery_to_users_without_email
+    puts "*** prevent_delivery_to_users_without_email"
     if @email_to.blank?
       mail.perform_deliveries = false
     end
