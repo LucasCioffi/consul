@@ -76,6 +76,7 @@ Rails.application.configure do
   # SMTP configuration to deliver emails
   # Uncomment the following block of code and add your SMTP service credentials
   config.action_mailer.delivery_method = :smtp
+  config.action_mailer.perform_deliveries = true
   ActionMailer::Base.smtp_settings = {
     :address        => 'smtp.sendgrid.net',
     :port           => '587',
