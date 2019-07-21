@@ -70,7 +70,7 @@ Rails.application.configure do
   # Ignore bad email addresses and do not raise email delivery errors.
   # Set this to true and configure the email server for immediate delivery to raise delivery errors.
   config.action_mailer.raise_delivery_errors = true
-  config.action_mailer.default_url_options = { host: 'greenburgh.us' }
+  config.action_mailer.default_url_options = { host: 'www.greenburgh.us' }
   config.action_mailer.asset_host = "https://www.greenburgh.us"
 
   # SMTP configuration to deliver emails
