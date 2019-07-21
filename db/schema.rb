@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20190607160900) do
+ActiveRecord::Schema.define(version: 20190720204400) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -1565,7 +1565,6 @@ ActiveRecord::Schema.define(version: 20190607160900) do
     t.boolean  "recommended_debates",                       default: true
     t.boolean  "recommended_proposals",                     default: true
     t.index ["confirmation_token"], name: "index_users_on_confirmation_token", unique: true, using: :btree
-    t.index ["email"], name: "index_users_on_email", unique: true, using: :btree
     t.index ["geozone_id"], name: "index_users_on_geozone_id", using: :btree
     t.index ["hidden_at"], name: "index_users_on_hidden_at", using: :btree
     t.index ["password_changed_at"], name: "index_users_on_password_changed_at", using: :btree
