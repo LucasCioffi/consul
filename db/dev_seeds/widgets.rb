@@ -9,8 +9,8 @@ section "Creating header and cards for the homepage" do
   end
 
   Widget::Card.create!(
-    title_en: "CONSUL",
-    title_es: "CONSUL",
+    title_en: "Lucas Cioffi for Town Supervisor",
+    title_es: "Lucas Cioffi for Town Supervisor",
 
     description_en: "Free software for citizen participation.",
     description_es: "Software libre para la participación ciudadana.",

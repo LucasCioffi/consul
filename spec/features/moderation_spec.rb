@@ -99,7 +99,7 @@ describe "Moderation" do
     end
 
     after do
-      Setting["org_name"] = "CONSUL"
+      Setting["org_name"] = "Lucas Cioffi for Town Supervisor"
     end
 
     scenario "Contains correct elements" do

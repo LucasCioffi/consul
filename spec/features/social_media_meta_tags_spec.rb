@@ -5,7 +5,7 @@ describe "Social media meta tags" do
   context "Setting social media meta tags" do
 
     let(:meta_keywords) { "citizen, participation, open government" }
-    let(:meta_title) { "CONSUL" }
+    let(:meta_title) { "Lucas Cioffi for Town Supervisor" }
     let(:meta_description) { "Citizen participation tool for an open, "\
                              "transparent and democratic government." }
     let(:twitter_handle) { "@consul_test" }
@@ -30,7 +30,7 @@ describe "Social media meta tags" do
       Setting["twitter_handle"] = nil
       Setting["url"] = "http://example.com"
       Setting["facebook_handle"] = nil
-      Setting["org_name"] = "CONSUL"
+      Setting["org_name"] = "Lucas Cioffi for Town Supervisor"
     end
 
     scenario "Social media meta tags partial render settings content" do

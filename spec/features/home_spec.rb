@@ -7,7 +7,7 @@ describe "Home" do
     scenario "Welcome message" do
       visit root_path
 
-      expect(page).to have_content "CONSUL"
+      expect(page).to have_content "Lucas Cioffi for Town Supervisor"
     end
 
     scenario "Not display recommended section" do
